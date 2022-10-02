@@ -1,6 +1,6 @@
 <?php
 include_once("koneksi.php");
-$id = $_GET['id'];
+$id = $_POST['id'];
 $nama = $_POST['nama'];
 $jenis= $_POST['jenis'];
 $no_hp= $_POST['no_hp'];
